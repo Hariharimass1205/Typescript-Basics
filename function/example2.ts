@@ -28,3 +28,15 @@ arr.map((a:number):number=>{
     return a
 })
 //syntex for arr fn
+
+function voidfn(errmsg:string):void{
+    console.log(errmsg)
+    // return (" a function cant return anything means we should use void")
+}
+
+
+ 
+function errThrowingNever(errmsh:string):never{
+    throw new Error(errmsh)
+}
+// is "never" is almost same as "void" 

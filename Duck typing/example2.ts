@@ -1,6 +1,6 @@
 var myInfo = {name:"hari",age:2}
-myInfo = {address:"address"}
-myInfo = {place:"cbe"}// this isn't okay
+// myInfo = {address:"address"}
+// myInfo = {place:"cbe"}// this isn't okay
 myInfo = {age:43,name:"naveen"} // this is okay 
 console.log(myInfo)
 

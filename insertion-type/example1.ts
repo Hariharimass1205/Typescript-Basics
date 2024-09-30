@@ -7,7 +7,7 @@ interface Admin{
     admminLevel:number
 }
 
-type adminEmployee = Employee &  Admin
+type adminEmployee = Employee &  Admin;
 
 let adminEmployees: adminEmployee = {
     name:"hari",

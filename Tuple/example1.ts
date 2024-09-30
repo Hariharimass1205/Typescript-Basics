@@ -1,0 +1,1 @@
+let arr:[number,string,boolean] = [34,"ajith",true]
